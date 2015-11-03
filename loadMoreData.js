@@ -1,6 +1,7 @@
 $.extend($,{
     //载入更多内容
     loadMoreData: function (options) {
+        
         var defaultSetting = {
                 loading: '.loading',
                 padding: 200,
