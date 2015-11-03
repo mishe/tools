@@ -16,13 +16,12 @@ $.extend($,{
             setTimeout(function () {
                 $('#' + id).remove();
             }, 500);
-        }
-
+        };
         if(interval!==false)
             setTimeout(function () {
                 close();
             }, interval || 2000);
-
+        
         return{
             close: function () {
                 close();
