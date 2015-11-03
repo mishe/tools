@@ -5,6 +5,7 @@
 *
  */
 
+
 var template=require('./popWindow.html');
 require('./popWindow.css');
 template= _.template(template);
