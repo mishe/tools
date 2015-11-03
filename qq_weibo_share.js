@@ -11,4 +11,4 @@ $.extend($,{
             +'&type=icon&language=zh_cn&title='+encodeURIComponent(title+'（阅读原文：'+location.href+'，下载沪江手机客户端：http://hj.vc/vrjU3vJ）')
             +'&searchPic=http://ms.hujiang.com/st/images/icon114.png&style=simple'
     }
-})
+});
