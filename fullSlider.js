@@ -1,5 +1,6 @@
 (function ($) {
     $.extend($, {
+        
         fullSlider:function(options){
             var defaultOptions= {
                     class: 'full_slider',
