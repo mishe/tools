@@ -5,6 +5,7 @@ $.extend($.fn, {
             $(this).overSlide(callback);
         })
     },
+    
     //整体滚动
     overSlide: function (options,callback) {
         var $this = $(this),
