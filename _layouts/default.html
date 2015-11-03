@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 </head>
 <body>
+<section class="page-header">
+    <h1 class="project-name">Tools</h1>
+    <h2 class="project-tagline">工具函数集合</h2>
+    <a href="https://github.com/mishe/tools" class="btn">View on GitHub</a>
+    <a href="https://github.com/mishe/tools/zipball/master" class="btn">Download .zip</a>
+    <a href="https://github.com/mishe/tools/tarball/master" class="btn">Download .tar.gz</a>
+</section>
 
-{{ content }}
-
+<section class="main-content">
+    {{ content }}
+</section>
+<footer class="site-footer">
+    {{ page.date | date_to_string }}
+</footer>
 </body>
 </html>
