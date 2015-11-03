@@ -26,7 +26,6 @@
         return list;
     };
 
-
     function Mobile_upload() {
         window.uploadCount = window.uploadCount || 0;
         window.uploadCount++;
