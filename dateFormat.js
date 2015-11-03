@@ -1,5 +1,6 @@
 $.extend($, {
     //格式化日期显示
+    
     dateFormat: function (date, fmt) {
         //指定fmt 格式，按照fmt格式输出
         //未指定fmt 按照语义化输出。
