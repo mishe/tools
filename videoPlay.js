@@ -1,7 +1,5 @@
 (function () {
-
     var videoApi = 'http://api.site.hujiang.com/Web/VideoV1.ashx';
-
     function videoRenderModel(embedTarget, video) {
         $(embedTarget).replaceWith(video);
         return video;
