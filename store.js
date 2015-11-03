@@ -294,5 +294,4 @@
         };
     }
     return new CacheConstructor();
-
 }));
