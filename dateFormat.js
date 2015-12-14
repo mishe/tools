@@ -10,7 +10,11 @@ $.extend($, {
             return d.toString().replace('T', ' ').replace(/-/g, '/').split('+')[0].split('.')[0];
         }
 
-        date = new Date(getDateStr(date));
+        function _isDate(date) {
+            return Object.prototype.toString.call(date) === '[object Date]' && !isNaN(date.getTime());
+        }
+        if(!_isDate(date))
+            date = new Date(_getDateStr(date));
         var now = new Date(),
             o = {
                 "M+": date.getMonth() + 1,
