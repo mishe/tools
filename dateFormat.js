@@ -38,8 +38,8 @@ $.extend($, {
         } else {
             var ts = new Date().getTime() - date.getTime();
             if (!date || ts <= 3000) return '刚刚';
-            if (Math.floor(ts / 1000) < 59) return Math.floor(ts / 1000) + '秒钟前';
-            if (Math.floor(ts / 60000) < 59) return Math.floor(ts / 60000) + '分钟前';
+            if (Math.floor(ts / 1000) < 60) return Math.floor(ts / 1000) + '秒钟前';
+            if (Math.floor(ts / 60000) < 60) return Math.floor(ts / 60000) + '分钟前';
             if (Math.floor(ts / 3600000) < 24) return Math.floor(ts / 3600000) + '小时前';
             if (Math.floor(ts / 86400000) <= 10) return Math.floor(ts / 86400000) + '天前';
             if (now.getFullYear() == date.getFullYear()) {
