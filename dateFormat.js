@@ -5,7 +5,7 @@ $.extend($, {
         //指定fmt 格式，按照fmt格式输出
         //未指定fmt 按照语义化输出。
         if (!date) return '';
-        function getDateStr(d) {
+        function _getDateStr(d) {
             if (!d) return '';
             return d.toString().replace('T', ' ').replace(/-/g, '/').split('+')[0].split('.')[0];
         }
